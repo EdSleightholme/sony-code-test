@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mounts without crashing 1`] = `
+<App>
+  <div
+    className="App"
+  >
+    <header
+      className="App-header"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col"
+          >
+            <img
+              alt="logo"
+              className="App-logo"
+              src="logo.svg"
+            />
+            <h1>
+              Start creating your TODO app here
+            </h1>
+            <p>
+              Edit 
+              <code>
+                src/containers/App/App.js
+              </code>
+               and save to reload.
+            </p>
+            <ListItem
+              done={false}
+              title="title"
+              toDelate={[Function]}
+            >
+              <div>
+                title
+                <div
+                  onClick={[Function]}
+                >
+                  DELETE TASK 
+                </div>
+              </div>
+            </ListItem>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+</App>
+`;
